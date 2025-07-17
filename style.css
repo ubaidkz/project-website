@@ -131,7 +131,7 @@ body {
 }
 
 .hero-3 {
-  height: 120vh;
+  height: 230vh;
   width: 100%;
   margin-top: 10vw;
 }
@@ -164,6 +164,23 @@ body {
 .portion .portion-left h1 {
   font-size: 7vh;
 }
+
+
+.hero-3-box-responsive{
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  height: 350vh;
+  width: 100%;
+  margin-top: 25vh;
+  display: none;
+  
+}
+.box-responsive{
+  display: none;
+}
+
+
 
 button {
   height: 6.4vh;
@@ -217,6 +234,13 @@ button:hover{
 
 .hero-6 {
   margin-top: 15vw;
+  
+
+}
+.hero-6 .portion{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .hero-6 .portion .portion-left h1 {
@@ -501,6 +525,7 @@ button:hover{
 
 .job-sec-4 .shape h3 {
   margin-left: 3vw;
+  font-size: 2vw;
 }
 
 .job-sec-4 .shape button {
