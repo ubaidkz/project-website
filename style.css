@@ -412,6 +412,10 @@ button:hover{
      top: -2vw;
 }
 
+.service-box-responsive{
+  display: none;
+}
+
 
 
 .service-box .box img {

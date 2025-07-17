@@ -80,9 +80,20 @@
 }
 
 
-/* .hero-3 {
+.hero-3 {
   display: none;
-} */
+}
+
+
+.service-hero-3{
+  display: none;
+}
+
+
+.service-box-responsive{
+  display: inline-block;
+  height: 550vh !important;
+}
 .hero-3-box-responsive{
   display: inline-block;
   margin-top: 10vh;
