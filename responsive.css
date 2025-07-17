@@ -1,540 +1,388 @@
-@media (max-width: 600px) {
-  * {
-    box-sizing: border-box;
-  }
-
-  body {
-    overflow-x: hidden;
-    font-size: 4vw;
-  }
-
-  .nav-wrapper {
-    width: 80%;
-    padding: 4vw;
-    margin: 5vw auto;
-    margin-left: 15vw;
-  }
-
-  .nav-bar {
-    
-    gap: 3vw;
-    font-size: 0.5vh;
-    text-align: center;
-  }
-
-  .nav-bar a {
-   
-    font-size: 3vw;
-  }
+@media ( max-width: 600px) {
+ 
+.nav-wrapper {
+  margin-left: 18vw; 
+  height: 5vh;
+  margin-top: 3vh;
+  
+}
+.nav-bar a{
+  
+  font-size: 3vw !important;
+  
+}
 
   .hero-1 {
-    flex-direction: column;
-    text-align: center;
-    padding: 5vw;
-    gap: 5vw;
-    height: auto;
-  }
+  height: 100vh;
+  margin-top: 10vh;
+ flex-direction: column;
+ text-align: center;
+}
 
-  .hero-1-left,
-  .hero-1-right {
-    width: 100%;
-  }
-
-  .hero-1-left h1{
-    font-size: 8vw;
-    line-height: 10vw;
-  }
-  .hero-1-left h2 {
-    font-size: 7vw;
-    line-height: 10vw;
-  }
-
-  .hero-1-left h3 {
-    font-size: 4vw;
-    margin-right: 10vh;
-  }
-
-  .hero-1-left p {
-    font-size: 3vw;
-    line-height: 6vw;
-    margin-top: 4vw;
-    width: 100%;
-    margin-left: 1vw;
-    font-weight: lighter;
-  }
-
-  .hero-1-left button {
-    width: 40%;
-    height: 8.5vh;
-    font-size: 2.5vw;
-    margin: 5vw auto 0;
-    display: block;
-    height: 7vh;
-  }
-
-  .hero-1-right img {
-    width: 80%;
-    margin: 35vh auto;
-    display: block;
-  }
-
-  .highlight::after {
-    width: 39vw;
-    height: 7vh;
-    margin-right: 2vh;
-  }
-
-  .hero-2 {
-    
-    padding: 0 5vw;
-    text-align: center;
-    height: 30vw;
-    width: 100%;
-  }
-
-  .hero-2 .color {
-    width: 20vw;
-    height: 1.2vw;
-    margin: 0 auto;
-    margin-left: 55vh;
-  }
-
-  .hero-2 p {
-    margin-top: 5vw;
-    font-size: 3vw;
-    line-height: 3vw;
-    margin-left: 0;
-    margin-right: 0;
-  }
-   .hero-3{
-    height: 300vh;
-    width: 100%;
+.hero-1-left {
+  height: 60%;
+  width: 100%;
+  margin-left: 4vw;
+  line-height: 8vh;
   
-   }
+}
 
-  .hero-3 .portion {
-    flex-direction: column;
-    text-align: center;
-    /* padding: 6vw 4vw; */
-    margin-top: 15vw;
-    height: 50vh;
-    margin-top: 20vh;
-  }
 
-  .portion-left{
-     width: 100%;
-     margin-top: 5vh;
-     margin-bottom: 5vh;
-  }
-  .portion-right {
-    width: 100%;
-    margin-left: 11vh;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-  }
-
-  .portion .portion-left h1{
-    font-size: 5vw;
-    width: 100%;
-  }
-
-  .portion-left p {
-    font-size: 2vw;
-    line-height: 2vw;
-    margin-top: 2vw;
-  }
-
-  .portion-left button {
-    width: 60%;
-    height: 5vh;
-    font-size: 3vw;
-    margin: 4vw auto 0;
-    display: block;
-  }
-
-  .portion-right img {
-    width: 100%;
-    height: auto;
-    margin: 5vw auto;
-    display: block;
-  }
-
-  
-
-  .hero-4 {
-    margin-top: 25vw;
-    padding: 0 5vw;
-    text-align: center;
-  }
-
-  .hero-4 h1 {
-    margin-left: 12vw;
-  margin-right: 6vw;
-  font-size: 4.5vw;
-  line-height: 5vw;
-  }
-
-  .hero-4 p {
-    margin-left: 14vw;
-  margin-right: 8vw;
+.hero-1-left h3 {
+  margin-left: 2vw;
   font-size: 3vw;
-  line-height: 3vw;
-  }
-
-  .hero-4 button {
-    width: 40%;
-    font-size: 2.5vw;
-    margin-top: 5vw;
-    margin-left: 25vw;
-    
-  }
-
-  .hero-5 {
-    margin-top: 45vw;
-    text-align: center;
-  }
-
-  .hero-5 img {
-    width: 60%;
-    margin: 0 auto;
-  }
-
-  .hero-6 .portion{
-    flex-direction: column;
-    padding: 5vw 4vw;
-    text-align: center;
-    padding-left: 0;
-  }
-
-  .hero-7 .portion {
-    flex-direction: column;
-    padding: 5vw 4vw;
-    text-align: center;
-    height: 50vh;
-    
-  }
-   
-
-  .hero-6 .portion .portion-left h1{
-    font-size: 5vw;
-    
-    width: 100%;
-  }
-   .hero-6 .portion .portion-left p{
-    font-size: 2.3vw;
-   width: 100%;
-    line-height: 3vh;
-  }
-    .hero-7 .portion .portion-left{
-        width: 100%;
-    }
-  .hero-7 .portion .portion-left p {
-    font-size: 4vw;
-    line-height: 2.8vh;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
- 
-
-  .hero-6 .portion .portion-right img,
-  .hero-7  .portion  .portion-right img {
-    width: 70%;
-    margin: auto;
-    display: block;
-  }
-
-  .hero-7 .portion .portion-left button {
-    width: 30%;
-    font-size: 2vw;
-    margin-left: 15vh;
-    margin-bottom: 5vh;
-    
-  }
-
-  .footer {
-    flex-direction: column;
-    align-items: center;
-    padding: 8vw 4vw;
-    text-align: center;
-    gap: 6vw;
-    margin-top: 10vw;
-    height: 100vh;
-    margin-top: 40vh;
-  }
-
-  .footer .one,
-  .footer .two,
-  .footer .three {
-    width: 100%;
-  }
-
-  .footer .one h1 {
-    font-size: 8vw;
-  }
-
-  .footer .one p {
-    font-size: 4vw;
-    line-height: 6vw;
-    margin-top: 4vw;
-  }
-
-  .icons {
-    font-size: 6vw;
-    margin-top: 4vw;
-  }
-
-  .two ul {
-    padding: 0;
-    list-style: none;
-  }
-
-  .two ul li {
-    font-size: 4vw;
-    margin: 2vw 0;
-  }
-
-  .three img {
-    width: 40%;
-    margin: 4vw auto;
-    display: block;
-  }
-
-
-  /* service */
-  .service-hero-1{
-    height: 25vh;
-  }
-  .service-hero-1 h1{
-    font-size: 3.4vh;
-  }
-  .service-hero-1 p{
-    font-size: 1.5vh;
-  }
-  .service-hero-1-sec2{
-    flex-direction: column;
-    height: 100vh;
-  }
-  .service-hero-1-sec2 .box{
-    width: 20vh;
-    height: 25vh;
-    margin-top: 2vh;
-  }
-  .service-hero-2 button {
-    font-size: 2.5vh;
-    margin-left: 25vh;    
-
-  }
-
-    .service-hero-2 h1{
-       margin-left: 20vh;
-    }
-  .service-box button{
-    width: 30vw;
-    font-size: 1.8vh;
-  }
-  .service-box .box h3 {
-    font-size: 1.5vh;
-  }
-  
-  .service-box .box p {
-    font-size: 1.1vh;
-  }
-  .service-hero-2 button{
-    width: 35vw;
-    margin-left: 30vw;
-  }
-  .service-hero-3{
-    height: 350vh;
-  }
-   .service-hero-3 .portion{
-    height: 50vh;
-   }
-   .service-hero-4{
-    margin-top: 120vh;
-   }
-
-
-  /* job */
-  .job-sec-2{
-    height: 20vh;
-  }
-  .job-sec-2 .line-1 .shape {
-    width: 20vh;
-    height: 5vh;
-  }
-  .job-sec-2 .line-1 .shape h3{
-    margin-top: 1.2vh;
-    font-size: 1.3vh;
-  }
-
-
-  .job-sec-3{
-    height: 20vh;
-  }
-  .job-sec-4{
-    margin-top: 30vh;
-    height: 150vh;
-
-  }
-  .job-sec-4 h1{
-    font-size: 4vh;
-    margin-left: 6vh;
-  }
-  .job-sec-4 .shape{
-    height: 8vh;
-    
-  }
-  .job-sec-4 .shape h3{
-    font-size: 2vh;
-    margin-left: 1vh;
-  }
-  .job-sec-4 .shape button {
-    width: 15vh;
-    height: 5vh;
-    margin-top: 1vh;
-    margin-left: 2vh;
-    font-size: 1.4vh;
-  }
-  .job-sec-5 .portion{
-flex-direction: column;
-height: 40vh;
-margin-top: 20vh;
-  }
-  .job-sec-5 .portion .portion-left{
-    width: 100%;
-  }
-  .job-sec-5 .portion .portion-left h1{
-    margin-left: 20vh;
-  }
-
-    .job-sec-5 .portion .portion-left p{
-    margin-left: 20vh;
-    font-size: 2.5vh;
-    line-height: 3vh;
-  }
-  .job-sec-5 .portion .portion-left button{
-    width: 30%;
-    margin-left:20vh;
-  }
-
-
-  /* success page */
-  .succ-sec-2{
-    height: 20vh;
-  }
-  .succ-sec-2 .service-hero-2 button{
-    font-size: 1.8vh;
-    
-  }
- .succ-sec-4{
-    height: 100vh;
- }
- .succ-sec-4 .hero-4{
-    height: 50vh;
- }
- .succ-sec-4 .hero-4 img{
-    height: 10%;
-    margin-right: 50vh;
- }
- .succ-sec-4 .success-boxs {
-    
-    flex-direction: column;
-    margin-top: 10vh;
-    
- }
- .succ-sec-4 .success-boxs .success-box{
-     height: 100vw;
-      width: 50vw;
-      margin-top: 10vh;
- }
-
- .succ-sec-4 .success-boxs .success-box img{
-    display: none;
- }
- .succ-sec-4 .success-boxs .success-box p{
-    margin-bottom: 5vh;
-    font-size: 2vh;
- }
- .succ-sec-4 .success-boxs .success-box .ri-star-fill{
-    font-size: 2vh;
- }
-
-
- .dot-container{margin-top: 30vw;
-  gap: 5px;
-  margin-top: 30vh;
 }
-.dot .dot-1{
-    display: none;
+.hero-1-left p {
+  font-size: 2vw;
+  line-height: 2vw;
+  margin-top: 1vw;
+  margin-left: 1vw;
 }
+.hero-1-left h2 {
+  margin-left: 0.4vw;
+  font-size: 8vw;
 
-
-.dot .dot-4{
-    display: none;
 }
-/* pricing */
-
-.pricing-sec{
-    height: 220vh;
-}
-.pricing-plan {
-    height: 70vh;
-}
-.pricing-plan h1{
-  font-size: 5vh;
-}
-.pricing-plan p{
+.hero-1-left button {
+  margin-left: 3vw;
+  margin-top: 2vw;
+  width: 25vh;
   font-size: 2vh;
 }
-.pricing-plan button{
-    width: 20vh;
-    font-size: 1.8vh;
+
+.hero-1-right {
+  height: 100%;
+  width: 40%;
+  margin-right: 10vw;
 }
-.pricing-plan-2 {
+.hero-1-right img {
+  margin-top: 10vw;
+  height: 60%;
+  width: 80%;
+  margin-left: 10vh;
+}
+
+.hero-1-left button:hover{
+    background-color: rgb(11, 122, 15);
+    width: 26vw;
+    font-size: 2.2vh;
+}
+
+
+
+.hero-2 {
+  height: 25vh;
+ 
+}
+
+.hero-2 p {
+  font-size: 1.7vw;
+}
+
+
+.hero-3 {
+  display: none;
+}
+.hero-3-box-responsive{
+  display: inline-block;
+  margin-top: 10vh;
+  height: 450vh;
+  display: grid;
+  place-items: center;  
+}
+.box-responsive{
+    
+    align-items: center;   
+}
+
+
+.box-responsive{
+  
+  height: 90vh;
+  width: 62%;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 5px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #4caf50, #cddc39) border-box;
+ /* margin-left: 20vh; */
+  display: grid;
+  place-items: center;
+ margin-top: 10vh;
+ padding-top: 10vh;
+ gap: 15vh;
+}
+.box-responsive .portion {
+  margin-left: 0vh;
+}
+
+.box-responsive .portion .portion-left{
+  height: 50%;
   width: 100%;
+  margin: 10vh 5vh;
+}
+.box-responsive .portion .portion-left h1{
+  font-size:4vh ;
+}
+.box-responsive .portion .portion-left p{
+  font-size:2vh ;
+}
+.box-responsive .portion .portion-left button{
+  width: 20vh;
+}
+
+.box-responsive .portion .portion-right{
+  height: 50%;
+  width: 100%;
+}
+
+
+.hero-4 button {
+  
+  margin-left: 35vh !important;
+  
+}
+
+.hero-5 {
+  height: 20vw;
+  width: 100%;
+  margin-left: 10vh;
+  margin-top: 10vh;
+}
+.hero-5 img {
+  
   height: 100%;
 }
 
 
-.pricing-plan-2 .boxes{
-     height: 100vh;
-  flex-direction: column;
 
+.hero-6 .portion{
+  display: flex;
+}
+
+
+
+.two {
+  margin-top: 6vw;
+}
+.two ul li{
+  font-size: 2vh;
+}
+
+.job-sec-2 {
+  height: 70vh;
+}
+.job-sec-2 .line-1 {
+  flex-direction: column;
+  
+  
+  
+}
+.job-sec-2 .line-1 .shape {
+width: 35vh !important;
+height: 8vh !important;
+}
+
+.job-sec-2 .line-1 .shape h3 {
+  margin-top: 10vh;
+  font-size: 7vh;
+}
+.job-sec-3 .hero-4{
+  height: 30vh;
+}
+.job-sec-3 .hero-4 button{
+  margin-left: 20vh;
+}
+
+.job-sec-4 .shape button{
+  width: 35vh !important;
+}
+
+.job-sec-5 {
+  height: 34vw;
+  
+}
+
+.job-sec-5 .portion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.job-sec-5 .portion .portion-left h1{
+  font-size: 4vh;
+}
+.job-sec-5 .portion .portion-left p{
+  font-size: 2vh;
+}
+.job-sec-5 .portion .portion-left button{
+  font-size: 2vh;
+  width: 25vh;
+  
+}
+
+
+.service-hero-2{
+  height: 25vh;
+  margin-top: 10vh;
+}
+
+.service-hero-2 button{
+  margin-left: 35vh;
+}
+.succ-sec-4 .hero-4 img {
+  margin-left: 2vh;
+  height: 30% !important;
+}
+
+.succ-sec-4 .hero-4 {
+  height: 70vh !important;
+}
+.succ-sec-4 .hero-4 button{
+  margin-left: 35vh;
+}
+.succ-sec-4 .success-boxs {
+  height: 80vw !important;
+  flex-direction: column;
+}
+.succ-sec-4 .success-boxs .success-box {
+  height: 100%;
+  width: 35vw;
+  
+}
+.succ-sec-4 .success-boxs .success-box p {
+  margin-top: 2vh !important;
+  margin-left: 2vw;
+  font-weight: lighter;
+  font-size: 1.7vw;
+}
+.succ-sec-4 .success-boxs .success-box .ri-star-fill {
+  font-size: 3vw;
+  margin-top: 3vh;
+}
+
+
+
+
+.succ-sec-4 .success-boxs .success-box img {
   position: relative;
-  margin-top: 2vw;
+  bottom: 5vw;
+  height: 11vh;
+}
+
+.dot-container {
+  margin-top: 20vh;
+}
+
+
+.service-box{
+  flex-direction: column;
+}
+
+
+.service-hero-1 {
+  height: 35vh;
+}
+.service-hero-1-sec2 {
+  height: 150vh !important;
  
 }
 
-.pricing-plan-2 .boxes .box{
+
+.service-hero-1-sec2 .box {
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 20px;
+  width: 270px;
+  padding: 2vw;
+  height:30vh;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+.service-hero-1-sec2 .box p{
+  font-size: 2vh;
+  margin-top: 2vh;
+}
+
+.service-hero-1-sec2 .box h3{
+  font-size: 4vh;
+}
+
+
+
+
+
+
+
+.pricing-plan img {
+  height: 15vh;
+}
+.pricing-plan h1 {
+  font-size: 4vh;
+}
+.pricing-plan p {
+  font-size: 2vh;
+}
+
+.pricing-plan-2 .boxes {
+  height: 220vh;
+  flex-direction: column;
+  margin-top: 5vh;
+}
+.pricing-plan-2 .boxes .box {
+  height: 65vh !important;
+  width: 35vh !important;
   
-    width: 30vh;
-    overflow: hidden;
-   
-   
+  
 }
-.pricing-plan-2 .boxes .box h2{
-    font-size: 2vh;
+.pricing-plan-2 .boxes .box p {
+  
+  font-size: 1.7vh;
+ 
 }
-
-.pricing-plan-2 .boxes .box p{
-    font-size: 1.3vh;
-}
-
-.pricing-plan-2 .boxes .box h4{
-    font-size: 2vh;
-}
-.pricing-plan-2 .boxes .box ul li{
-    font-size: 1.2vh;
-    margin-left: 2vh;
+.pricing-plan-2 .boxes .box h4 {
+  font-size: 3vh;
+  margin-top: 1vh;
 }
 
-.pricing-plan-2 .boxes .box button{
-    width: 20vh;
-    font-size:1.8vh ;
-    margin-bottom: 2vh;
+.pricing-plan-2 .boxes .box ul li {
+  font-size: 1.3vh;
+  max-width: 20vw;
+  margin-left: 2vw;
+  margin-top: 1vh;
 }
+
+.pricing-plan-2 .boxes .box h2 {
+  margin-top: 3.2vh;
+
+  font-size: 3vh;
+}
+.pricing-plan-2 .boxes .box button {
+  margin-left: 2vw;
+  width: 25vh;
+}
+
+
+button {
+ 
+  width: 22vh !important;
+ 
+}
+button:hover{
+    
+    font-size: 2.2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -560,3 +408,188 @@ margin-top: 20vh;
     height: 30vw;
   }
 }
+
+
+
+
+
+
+@media  (max-width: 780px) {
+
+
+  .nav-wrapper {
+  height: 10vh;
+  border: none;
+  
+}
+
+
+.nav-bar a {
+  font-size: 2vw;
+}
+
+  button {
+  
+  width: 15vw;
+  font-size: 2vh;
+  
+}
+
+button:hover{
+    background-color: rgb(11, 122, 15);
+    width: 15vw;
+    font-size: 2.1vh;
+}
+
+.hero-2 {
+  height: 10vh;
+  
+}
+.hero-2 .color {
+  
+  margin-left: 75vw;
+}
+.hero-2 p {
+  margin-top: 1.5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 2vw;
+}
+
+
+
+.hero-4 {
+  height: 20vw;
+  width: 100%;
+  margin-top: 15vw;
+}
+.hero-4 h1 {
+  margin-left: 13vw;
+  margin-right: 10vw;
+  
+}
+.hero-4 p {
+  margin-top: 1vw;
+  margin-left: 17vw;
+  margin-right: 15vw;
+  line-height: 1.5vw;
+  font-size: 1.8vw;
+}
+.hero-4 button {
+  
+  margin-left: 40vw;
+  
+}
+
+.hero-5 {
+  height: 20vw;
+  width: 100%;
+  
+}
+.hero-5 img {
+
+  margin-left: 5vw;
+}
+
+.hero-7 .portion .portion-left button {
+  width: 20vw;
+  
+}
+
+.footer {
+  height: 20vw;
+  width: 100%;
+  margin-top: 15vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1vw;
+}
+.one {
+  height: 100%;
+  width: 33%;
+  margin-left: 5vw;
+}
+.one h1 {
+  font-size: 3.5vw;
+}
+.one p {
+  margin-top: 1vw;
+  font-size: 1.5vw;
+}
+
+
+
+.two {
+  margin-top: 6vw;
+}
+
+.three {
+  height: 80%;
+  width: 33%;
+}
+.three img{
+  height: 100%;
+}
+
+
+
+
+
+
+.job-sec-2 .line-1 .shape {
+  height: 6vw;
+  width: 18vw;
+  border: 2px solid black;
+  border-radius: 2vw;
+  text-align: center;
+}
+.job-sec-2 .line-1 .shape h3 {
+  margin-top: 2vw;
+  font-size: 2.2vh;
+}
+
+
+
+
+.succ-sec-4 .hero-4 img {
+  margin-left: 0vw;
+  height: 40%;
+}
+.succ-sec-4 .success-boxs {
+  height: 28vw;
+}
+
+
+
+
+.succ-sec-4 .success-boxs .success-box p {
+  margin-top: 9vh;
+}
+
+
+
+
+.service-hero-1-sec2 {
+  height: 120vw;
+  
+  flex-direction: column;
+ 
+}
+
+.service-hero-4{
+  margin-top: 30vw;
+}
+.service-box{
+  flex-direction: column;
+}
+
+
+
+
+
+
+}
+
+
+
