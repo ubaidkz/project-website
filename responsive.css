@@ -23,7 +23,7 @@
   height: 60%;
   width: 100%;
   margin-left: 4vw;
-  line-height: 8vh;
+  line-height: 8vw;
   
 }
 
@@ -105,7 +105,7 @@
 .hero-3-box-responsive{
   display: inline-block;
   margin-top: 10vh;
-  height: 450vh;
+  height: 1100vw !important;
   display: grid;
   place-items: center;  
 }
@@ -118,7 +118,7 @@
 .box-responsive{
   
   height: 90vh;
-  width: 62%;
+  width: 62vw;
   overflow: hidden;
   border-radius: 15px;
   border: 5px solid transparent;
@@ -141,13 +141,13 @@
   margin: 10vh 5vh;
 }
 .box-responsive .portion .portion-left h1{
-  font-size:4vh ;
+  font-size:5vw ;
 }
 .box-responsive .portion .portion-left p{
-  font-size:2vh ;
+  font-size:2vw ;
 }
 .box-responsive .portion .portion-left button{
-  width: 20vh;
+  width: 20vw;
 }
 
 .box-responsive .portion .portion-right{
@@ -158,7 +158,7 @@
 
 .hero-4 button {
   
-  margin-left: 35vh !important;
+  margin-left: 30vw !important;
   
 }
 
@@ -214,7 +214,7 @@ height: 8vh !important;
 }
 
 .job-sec-4 .shape button{
-  width: 35vh !important;
+  width: 30vw !important;
 }
 
 .job-sec-5 {
@@ -235,7 +235,7 @@ height: 8vh !important;
 }
 .job-sec-5 .portion .portion-left button{
   font-size: 2vh;
-  width: 25vh;
+  width: 25vw;
   
 }
 
@@ -246,7 +246,7 @@ height: 8vh !important;
 }
 
 .service-hero-2 button{
-  margin-left: 35vh;
+   margin-left: 30vw !important;
 }
 .succ-sec-4 .hero-4 img {
   margin-left: 2vh;
@@ -257,7 +257,7 @@ height: 8vh !important;
   height: 70vh !important;
 }
 .succ-sec-4 .hero-4 button{
-  margin-left: 35vh;
+   margin-left: 30vw !important;
 }
 .succ-sec-4 .success-boxs {
   height: 80vw !important;
@@ -349,8 +349,9 @@ height: 8vh !important;
   margin-top: 5vh;
 }
 .pricing-plan-2 .boxes .box {
-  height: 65vh !important;
+  height: 70vh !important;
   width: 35vh !important;
+  overflow: hidden;
   
   
 }
