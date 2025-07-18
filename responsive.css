@@ -1,4 +1,9 @@
 @media ( max-width: 600px) {
+
+  
+  /* * {
+  outline: 1px solid red;
+} */
  
 .nav-wrapper {
   margin-left: 18vw; 
@@ -165,7 +170,7 @@
 .hero-5 {
   height: 20vw;
   width: 100%;
-  margin-left: 10vh;
+ 
   margin-top: 10vh;
 }
 .hero-5 img {
