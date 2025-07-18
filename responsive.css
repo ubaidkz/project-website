@@ -174,14 +174,14 @@
 }
 
 .hero-5 {
-  height: 20vw;
+  height: 40vw !important;
   width: 100%;
- 
+  
   margin-top: 10vh;
 }
 .hero-5 img {
   
-  height: 100%;
+  height: 80%;
 }
 
 
@@ -222,6 +222,9 @@ height: 8vh !important;
 }
 .job-sec-3 .hero-4 button{
   margin-left: 20vh;
+}
+.job-sec-4{
+  width: 98%;
 }
 
 .job-sec-4 .shape button{
